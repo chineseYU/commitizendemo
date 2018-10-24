@@ -1,0 +1,34 @@
+{
+  "name": "commitizendemo",
+  "version": "1.0.0",
+  "description": "the demo for commitizen",
+  "main": "index.js",
+  "dependencies": {
+    "commitizen": "^3.0.4",
+    "cz-customizable": "^5.2.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "path to this file"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chineseYU/commitizendemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chineseYU/commitizendemo/issues"
+  },
+  "homepage": "https://github.com/chineseYU/commitizendemo#readme"
+}
