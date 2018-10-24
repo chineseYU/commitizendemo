@@ -15,7 +15,7 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "path to this file"
+      "config": "cz-config.js"
     }
   },
   "scripts": {
